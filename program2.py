@@ -33,6 +33,8 @@ plt.title("2D Visualization of Sports-related Word Embeddings")
 plt.xlabel("PCA Component 1")
 plt.ylabel("PCA Component 2")
 plt.grid(True)
+plt.savefig("program2_output.png", dpi=150, bbox_inches='tight')
+print("Output saved to program2_output.png")
 plt.show()
 
 # Function to find 5 semantically similar words for a given word
