@@ -2,7 +2,8 @@ import numpy as np
 import pandas as pd
 
 # Sample corpus
-text = "the king loves the queen and the queen loves the king"
+# text = "the king loves the queen and the queen loves the king"
+text = "GloVe (Global Vectors for Word Representation) is a word embedding technique developed at Stanford University that represents words as dense vectors using global co-occurrence statistics from a corpus. It builds a word co-occurrence matrix and learns embeddings so that the dot product of word vectors reflects how frequently words appear together. Unlike Word2Vec, GloVe captures global statistical information rather than only local context."
 tokens = text.lower().split()
 
 window_size = 2
